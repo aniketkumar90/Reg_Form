@@ -1,12 +1,33 @@
-.imgi_back img{
-    margin-top: 3rem;
-    max-width: 100%;
-    height: auto;
-    border-radius: 2rem;
+.imgi_back{
+    margin-top: 1.5rem;
+    background-image: url('images/slide-1.jpg');
+    height: 93vh;
+    border-radius: 3rem;
 }
-.imgi_back .card .card-body{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-     transform: translate(-80%, -450%);
+.login_form
+{
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+.login_form form{
+    margin-top:2rem;
+}
+.login_form form button{
+    margin-top: 2rem;
+    margin-right: 10px;
+}
+
+.login_form form .btml{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.login_form form .btml a{
+    text-decoration: none;
+    color: #ffffff;
+    
+} 
