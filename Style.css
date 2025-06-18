@@ -1,0 +1,12 @@
+.imgi_back img{
+    margin-top: 3rem;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+.imgi_back .card .card-body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-80%, -450%);
+}
