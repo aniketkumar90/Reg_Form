@@ -1,6 +1,6 @@
 .imgi_back{
     margin-top: 1.5rem;
-    background-image: url('images/slide-1.jpg');
+    background-color: aliceblue;
     height: 93vh;
     border-radius: 3rem;
 }
@@ -97,3 +97,17 @@
     color: #ffffff;
     
 } 
+.juice-bottle {
+    width: 100%;
+    max-width: 470px; /* adjust to match your desired line width */
+    height: auto;
+    transform: translateX(100vw); /* Start off-screen to the right */
+    transition: transform 1s ease-in-out;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.juice-bottle.slide-in {
+    transform: translateX(0); /* Slide into view */
+}

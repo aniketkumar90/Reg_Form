@@ -5,6 +5,8 @@
         <div class="imgi_back">
             <div class="row">
                 <div class="col-md-2"></div>
+
+                <!-- Login Form -->
                 <div class="col-md-4">
                     <div class="login_form">
                         <h2 class="text-center">Login</h2>
@@ -18,17 +20,22 @@
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
                             <div class="btml">
-
                                 <button type="submit" class="btn btn-primary">Login</button>
                                 <button class="btn btn-primary"><a href="signup.php">Sign up</a></button>
                             </div>
-
                         </form>
                     </div>
-                    <div class="col-md-6"></div>
                 </div>
+
+                <div class="col-md-6 smoooth">
+                    <img src="images/smoth_1.png" class="juice-bottle" alt="Juice Bottle">
+
+                </div>
+
+
             </div>
         </div>
-        <div class="col-md-2"></div>
     </div>
-    <?php include_once 'footer.php'; ?>
+    <div class="col-md-2"></div>
+</div>
+<?php include_once 'footer.php'; ?>

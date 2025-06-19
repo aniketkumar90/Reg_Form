@@ -34,8 +34,18 @@
 
                         </form>
                     </div>
-                    <div class="col-md-6"></div>
+                    <!-- <div class="col-md-6">
+                        
+                    </div> -->
+                  
+
                 </div>
+                  <div class="col-md-6">
+                    <img src="images/smoth_1.png" class="juice-bottle" alt="Juice Bottle">
+
+                </div>
+                </div>
+                
             </div>
         </div>
         <div class="col-md-2"></div>
