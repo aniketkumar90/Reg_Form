@@ -91,6 +91,70 @@
             </nav>
         </div>
     </div>
-
+    <!-- Image -->
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/slide-1.jpg" class="d-block w-100" alt="image1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-2.jpg" class="d-block w-100" alt="image2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-33.jpg" class="d-block w-100" alt="image3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide-4.jpg" class="d-block w-100" alt="image4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="images/slide-1.jpg" class="card-img-top" alt="image5">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                     <div class="card mb-3">
+                        <img src="images/slide-2.jpg" class="card-img-top" alt="image5">
+                    </div>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <img src="images/slide-1.jpg" class="card-img-top" alt="image5">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                     <div class="card mb-3">
+                        <img src="images/slide-2.jpg" class="card-img-top" alt="image5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </header>
 <?php include_once 'footer.php';?>
