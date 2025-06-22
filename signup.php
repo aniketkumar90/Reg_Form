@@ -8,22 +8,22 @@
                 <div class="col-md-4">
                     <div class="login_form">
                         <h2 class="text-center">Sign up</h2>
-                        <form action="login.php" method="post">
+                        <form action="db/sin-up.php" method="post">
                              <div class="mb-3">
                                 <label for="Name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="Name" name="Name" required>
+                                <input type="text" class="form-control" id="sName" name="sName" >
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="email" name="email" required>
+                                <input type="email" class="form-control" id="semail" name="semail" >
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
+                                <input type="password" class="form-control" id="spassword" name="spassword" >
                             </div>
                              <div class="mb-3">
-                                <label for="password" class="form-label">Re Enter Password</label>
-                                <input type="password" class="form-control" id="password" name="password" required>
+                                <label for="password1" class="form-label">Re Enter Password</label>
+                                <input type="password" class="form-control" id="spassword1" name="spassword1" >
                             </div>
                             <div class="btml">
 

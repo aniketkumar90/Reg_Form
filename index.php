@@ -105,16 +105,52 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/slide-1.jpg" class="d-block w-100" alt="image1">
+                        <div class="row banner-content p-5" style="background-color:aliceblue">
+                            <div class="content-wrapper col-md-7">
+                                <div class="categories my-3">100% natural</div>
+                                <h3 class="display-4">Fresh Smoothie &amp; Summer Juice</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam
+                                    elementum.</p>
+                                <a href="#"
+                                    class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop
+                                    Now</a>
+                            </div>
+                            <div class="img-wrapper col-md-5">
+                                <img src="images/product-thumb-1.png" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slide-2.jpg" class="d-block w-100" alt="image2">
+                        <div class="row banner-content p-5" style="background-color:aliceblue">
+                            <div class="content-wrapper col-md-7">
+                                <div class="categories my-3">100% natural</div>
+                                <h3 class="display-4">Fresh Smoothie &amp; Summer Juice</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam
+                                    elementum.</p>
+                                <a href="#"
+                                    class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop
+                                    COllaction</a>
+                            </div>
+                            <div class="img-wrapper col-md-5">
+                                <img src="images/product-thumb-2.png" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/slide-33.jpg" class="d-block w-100" alt="image3">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/slide-4.jpg" class="d-block w-100" alt="image4">
+                        <div class="row banner-content p-5" style="background-color:aliceblue">
+                            <div class="content-wrapper col-md-7">
+                                <div class="categories my-3">100% natural</div>
+                                <h3 class="display-4">Fresh Smoothie &amp; Summer Juice</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim massa diam
+                                    elementum.</p>
+                                <a href="#"
+                                    class="btn btn-outline-dark btn-lg text-uppercase fs-6 rounded-1 px-4 py-3 mt-3">Shop
+                                    COllaction</a>
+                            </div>
+                            <div class="img-wrapper col-md-5">
+                                <img src="images/product-thumb-11.jpg" class="img-fluid">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -129,7 +165,7 @@
                 </button>
             </div>
         </div>
-        <div class="col-sm-6 col-md-6">
+        <div class="col-sm-6 col-md-6 " style="background-color:aliceblue;">
             <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-3">
@@ -137,19 +173,19 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                     <div class="card mb-3">
+                    <div class="card mb-3">
                         <img src="images/slide-2.jpg" class="card-img-top" alt="image5">
                     </div>
                 </div>
             </div>
-             <div class="row">
+            <div class="row">
                 <div class="col-md-6">
                     <div class="card mb-3">
                         <img src="images/slide-1.jpg" class="card-img-top" alt="image5">
                     </div>
                 </div>
                 <div class="col-md-6">
-                     <div class="card mb-3">
+                    <div class="card mb-3">
                         <img src="images/slide-2.jpg" class="card-img-top" alt="image5">
                     </div>
                 </div>
