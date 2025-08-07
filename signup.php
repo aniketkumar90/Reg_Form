@@ -11,19 +11,26 @@
                         <form action="db/sin-up.php" method="post">
                              <div class="mb-3">
                                 <label for="Name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="sName" name="sName" >
+                                <input type="text" class="form-control" id="sName" name="sName" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="semail" name="semail" >
+                                <input type="email" class="form-control" id="semail" name="semail" required>
                             </div>
                             <div class="mb-3">
                                 <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="spassword" name="spassword" >
+                                <input type="password" class="form-control" id="spassword" name="spassword" required>
                             </div>
                              <div class="mb-3">
                                 <label for="password1" class="form-label">Re Enter Password</label>
-                                <input type="password" class="form-control" id="spassword1" name="spassword1" >
+                                <input type="password" class="form-control" id="spassword1" name="spassword1" required>
+                                <span id="passErr" style="color:red;">
+                                    <?php
+                                    if (isset($_GET['passErr'])) {
+                                        echo htmlspecialchars($_GET['passErr']);
+                                    }
+                                    ?>
+                                </span>
                             </div>
                             <div class="btml">
 
